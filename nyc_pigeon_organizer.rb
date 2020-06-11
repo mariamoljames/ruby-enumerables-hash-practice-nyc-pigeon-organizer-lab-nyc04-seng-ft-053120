@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
   while count<names.length do
     inner_count=0
     while inner_count<attributes.length do
-      organizer[names[count]]=attributes[inner_count]
+      organizer[names[count]]<<attributes[inner_count]
       inner_count+=1
     end
     count+=1
